@@ -7,7 +7,7 @@ const btn = document.querySelectorAll('.btn')
 const clear = document.querySelector('#clear')
 const operators = ['+', '−', '×', '÷', '%']
 const plusMinus = document.querySelector('#plus-minus')
-let operation = "", tempValue = "0", value = "", pointActive = false, isOperation = false, lastButton = "", hasEqual = false
+let operation = "", tempValue = "0", value = "", pointActive = false, isOperation = false, lastButton = "", hasEqual = false;
 
 const themeSwitch = document.getElementById('theme')
 
@@ -30,9 +30,9 @@ point.addEventListener('click', () => {
 })
 equal.addEventListener('click', () => {
     countValue()
-    isOperation = false
-    lastButton = 'equal'
-    hasEqual = true
+        isOperation = false
+        lastButton = 'equal'
+        hasEqual = true
     }
 )
 clear.addEventListener('click', clearAll)
