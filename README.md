@@ -3,5 +3,10 @@
 ## Description
 **SimpleCalculator** is a simple web application for performing basic mathematical 
 operations, such as addition, subtraction, multiplication, and division. The application 
-is built using Webpack and includes ESLint and Prettier linters to maintain clean and 
-well-structured code.
+is built using Webpack and includes ESLint and Prettier linters to maintain clean and well-structured code.
+
+## Features
+- Support for addition, subtraction, multiplication, division, and sign switching
+- Automatic code linting with ESLint and Prettier
+- Project build with Webpack
+- Deployed on GitHub Pages
