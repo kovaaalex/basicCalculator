@@ -9,7 +9,7 @@ is built using Webpack and includes ESLint and Prettier linters to maintain clea
 - Support for addition, subtraction, multiplication, division, and sign switching
 - Automatic code linting with ESLint and Prettier
 - Project build with Webpack
-- Deployed on GitHub Pages
+- Deployed on GitHub Pages https://kovaaalex.github.io/basicCalculator/
 
   
 ## Installation
