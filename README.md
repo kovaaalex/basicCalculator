@@ -17,7 +17,7 @@ is built using Webpack and includes ESLint and Prettier linters to maintain clea
 1. Clone the repository:
    ```bash
    git clone https://github.com/kovaaalex/basicCalculator.git
-   cd simplecalculator
+   cd basiccalculator
 2. Install dependencies:
     ```bash
     npm install
