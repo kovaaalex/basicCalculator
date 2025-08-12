@@ -19,7 +19,6 @@ body {
     border-radius: 15px;
     box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.6);
 }
-
 .calculator-screen {
     font-size: 28px;
     position: relative;
@@ -28,7 +27,6 @@ body {
     color: white;
     font-family: 'SF Pro', 'Arial', sans-serif;
 }
-
 #light {
     position: absolute;
     top: 12px;
@@ -36,37 +34,30 @@ body {
     display: flex;
     gap: 7px;
 }
-
 .circle {
     width: 15px;
     height: 15px;
     border-radius: 50%;
 }
-
 .red {
     background-color: #FF5F56;
 }
-
 .yellow {
     background-color: #FFBD2E;
 }
-
 .green {
     background-color: #27C93F;
 }
-
 .result {
     position: absolute;
     bottom: 10px;
     right: 10px;
 }
-
 .calculator-buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1px;
 }
-
 .btn {
     color: white;
     font-size: 24px;
@@ -75,17 +66,13 @@ body {
     cursor: pointer;
     text-align: center;
 }
-
-
 .btn.number {
     background-color: #7a7a7a;
 }
-
 .btn.zero {
     grid-column: span 2;
     border-bottom-left-radius: 14px;
 }
-
 .btn:active {
     background-color: #ff9500;
 }
@@ -101,8 +88,6 @@ body {
 .equal{
     border-bottom-right-radius: 14px;
 }
-
-
 #theme {
     position: absolute;
     left: 50px;
@@ -116,7 +101,6 @@ body {
     justify-content: flex-start;
     transition: background-color 0.7s ease;
 }
-
 #theme.night {
     background-color: #fff;
 }
@@ -132,11 +116,9 @@ body {
     transition: transform 0.7s ease, background-color 0.7s ease;
     transform: translateX(0);
 }
-
 #percent{
     background-color: #646464;
 }
-
 .night__theme{
     background-color: #f0f0f0;
     transition: background-color 0.7s ease;
